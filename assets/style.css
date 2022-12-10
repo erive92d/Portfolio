@@ -1,0 +1,29 @@
+body {
+    background-image: linear-gradient(to bottom right, black, white);
+}
+
+.nav {
+   
+    display: flex;
+    margin: auto;
+    width: 50%;
+    padding: 3%;
+}
+.nav a {
+    margin: auto;
+    padding: 1%;
+    border-radius: 10px;
+    font-size: 120%;
+    color: white;
+    transition: all 0.2s;
+    background: #0891b2;
+    box-shadow: 0 25px 50px -12px  rgb(49 46 129);
+  
+    
+}
+.nav a:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    box-shadow: 0 25px 50px -12px  rgb(49 46 129);
+}
