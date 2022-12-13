@@ -1,15 +1,32 @@
-body {
-    background-image: linear-gradient(to bottom right, black, white);
+
+
+.nav { 
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+   border-bottom: 3px solid black;
 }
 
-.nav {
-   
+.profile {
     display: flex;
-    margin: auto;
-    width: 50%;
-    padding: 3%;
+    flex: 1 1 0;
+    flex-direction: column;
 }
-.nav a {
+.name {
+    font-size: 200%;
+    font-weight: 700;
+    color: white;
+}
+.profile-pic {
+    margin-left: 2%;
+    background-image: url("./image/profilepic.jpg");
+    background-size: cover;
+    width: 150px;
+    border-radius: 50%;
+    height: 150px;
+}
+.links a {
+
     margin: auto;
     padding: 1%;
     border-radius: 10px;
@@ -21,9 +38,57 @@ body {
   
     
 }
-.nav a:hover {
+.links a:hover {
     -webkit-transform: scale(1.2);
     -ms-transform: scale(1.1);
     transform: scale(1.1);
     box-shadow: 0 25px 50px -12px  rgb(49 46 129);
+}
+.links {
+    display: flex;
+    flex: 1 1 0;
+    justify-content: space-between;
+    
+}
+.projects {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2%;
+    flex: 1 1 0;
+    border-bottom: 3px solid black;
+}
+.carousel {
+   
+    height: 30%;
+    width: 30%;
+}
+
+.carousel-item img:hover {
+    background:red;
+}
+.carousel-caption {
+    color: white;
+    position: relative;
+    top: 3%;
+    left: 1%;
+    font-weight: 700;
+
+}
+.project-info {
+    
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    
+}
+.project-info h1 {
+    color: white;
+    font-weight: 700;
+} 
+.project-info p, li {
+    font-weight: 500;
+    width: 60%;
+}
+.project-info a {
+    text-decoration: none;
 }
