@@ -127,6 +127,7 @@ main::before {
 .projects {
     background: orange;
     display: flex;
+    
     margin: auto;
     width: 60%;
     
@@ -167,6 +168,22 @@ main::before {
     nav {
         width: 80%;
         position: relative;
+        
+    }
+    .skills {
+        width: 80%;
+        flex-wrap: wrap;
+    }
+    
+    .projects {
+        width: 80%;
+        flex-direction: column;
+        
+    }
+    .carousel {
+        width: 100%;
+        border-bottom: 3px solid black;
+       
     }
     
     .link-items {   
@@ -176,7 +193,7 @@ main::before {
         right: 0px;      
     }
     .burger {
-        display: block;
+        display: inline-block;
     }
     .links {
         display: none;
