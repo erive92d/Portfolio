@@ -28,12 +28,19 @@ nav a {
   text-decoration: none;
   color: white;
 }
-.links {
+.link-items {
   display: flex;
 }
-.links a {
+.link-items a {
   padding: 10px;
 }
+.links {
+    display: block;
+}
+.burger {
+    display: none;
+}
+
 main {
     /* display: flex;
     justify-content: center;
@@ -136,6 +143,7 @@ main::before {
 }
 .project-infos h1 {
     color:black;
+    font-weight: 700;
     margin-bottom: 10%;
 }
 .project-infos a {
@@ -149,3 +157,29 @@ main::before {
     list-style-type: none;
     line-height: 2.0;
 }
+.project-infos p {
+    color: black;
+}
+
+/* MEDIA */
+
+@media screen and (max-width: 660px) {
+    nav {
+        width: 80%;
+        position: relative;
+    }
+    
+    .link-items {   
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        right: 0px;      
+    }
+    .burger {
+        display: block;
+    }
+    .links {
+        display: none;
+        background: black;
+    }
+}   
