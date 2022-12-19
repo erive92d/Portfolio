@@ -1,5 +1,9 @@
 var menuIcon = document.querySelector('.burger');
 
+var gmail = document.getElementById('gmail');
+
+
+
 menuIcon.addEventListener('click', function() {
     var linksEl = document.querySelectorAll('.links')
    
@@ -10,4 +14,8 @@ menuIcon.addEventListener('click', function() {
     } else {
         linksEl[i].style.display = 'block'
     }
+})
+
+gmail.addEventListener('click', function() {
+    gmail.textContent = 'erive92d@gmail.com'
 })

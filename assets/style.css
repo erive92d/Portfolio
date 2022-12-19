@@ -98,11 +98,13 @@ main::before {
 
 .skill-cards {
     text-align: center;
+    width: 70%;
     background-color: orange;
     margin: 1%;
     padding: 1%;
 
 }
+
 .skill-cards i {
     font-size: 200%;
     margin: 10%;
@@ -161,6 +163,27 @@ main::before {
     width: 60%;
     color: black;
 }
+.contacts h1 {
+    font-weight: 700;
+    margin-bottom: 15%;
+    
+}
+.contacts {
+    background: orange;
+    display: flex;
+    padding: 1%;
+    margin: 3% auto;
+    width: 60%;
+    color: black;
+}
+.accounts {
+    display:flex;
+    gap: 50%;
+}
+.accounts a {
+    text-decoration: none;
+    color: black;
+}
 
 /* MEDIA */
 
@@ -173,7 +196,7 @@ main::before {
         
     }
     .skills {
-        width: 80%;
+        width: 100%;
         flex-wrap: wrap;
     }
     
@@ -211,4 +234,10 @@ main::before {
         font-size: 120%;
         text-align: center;
     }
+    .contacts {
+        width: 80%;
+        font-size: 120%;
+        
+    }
+    
 }   
