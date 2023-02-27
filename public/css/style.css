@@ -79,3 +79,22 @@ main {
   justify-content: center;
   align-items: center;
 }
+
+.contacts a {
+  text-decoration: none;
+  color:black;
+}
+.contacts a:hover {
+  color:gray;
+}
+.contacts {
+  display:flex;
+  flex-direction: column;
+  font-size: 200%;
+
+}
+.contact-links {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
