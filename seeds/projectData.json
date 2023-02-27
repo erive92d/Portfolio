@@ -1,0 +1,20 @@
+[
+    {
+        "project_name":"Budgetly",
+        "description":"Full web application for budgeting",
+        "image_src":"/images/budgetly.jpeg",
+        "link":"https://budget-app-nodejs.herokuapp.com/"
+    },
+    {
+        "project_name":"Tech Blog",
+        "description":"Social Media App for Tech nerds!",
+        "image_src":"/images/techblog.png",
+        "link":"https://deo-techblogs.herokuapp.com/login"
+    },
+    {
+        "project_name":"Nearby Salons",
+        "description":"Find Beauty Salons based on Location provided",
+        "image_src":"/images/nearby.png",
+        "link":"https://erive92d.github.io/Nearby-Salons/"
+    }
+]

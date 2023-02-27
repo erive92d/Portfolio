@@ -1,0 +1,20 @@
+
+{{#each project as |proj|}}
+    <div class="project-card">
+        <div class="project-image">
+            <img src="{{proj.image_src}}" class="img-fluid rounded" alt="budgetly">
+        </div>
+        <div class="project-description">
+            <h1>{{proj.project_name}}</h1>
+            <p>{{proj.description}}</p>
+            <a href="{{proj.link}}" target="__blank">View Project</a>
+        </div>
+
+
+    </div>
+{{/each}}
+<div>
+    <a href="https://github.com/erive92d?tab=repositories" target="__blank">Click here!</a> for more Projects.
+</div>
+
+
